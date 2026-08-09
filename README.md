@@ -2,9 +2,11 @@
 
 ![Preview](img/preview.png)
 
+[🔗Experimente agora!](https://pierry-savio.github.io/anonymous-vents/) 👈
+
 Projeto criado a fim de estudar a ferramente Firebase do Google.
 
-Um mural de desabafos anônimos. Qualquer pessoa pode escrever o que estiver sentindo e publicar sem se identificar — e ler o que outras pessoas desabafaram.
+Um mural de desabafos anônimos. Qualquer pessoa pode escrever o que estiver sentindo e publicar sem se identificar - e ler o que outras pessoas desabafaram.
 
 ## ✨ Funcionalidades
 
@@ -19,7 +21,7 @@ Um mural de desabafos anônimos. Qualquer pessoa pode escrever o que estiver sen
 - **HTML5**
 - **SASS/SCSS** (compilado com [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveSass))
 - **JavaScript** (ES Modules)
-- **Firebase Firestore** — banco de dados em tempo real
+- **Firebase Firestore** - banco de dados em tempo real
 
 ## 🗄️ Estrutura dos dados
 
