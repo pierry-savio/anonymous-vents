@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Shadows Into Light", cursive;
+  font-style: normal;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(80px, 20vw, 200px);
+  background-color: rgb(30, 30, 30);
+  border-bottom: 4px solid rgb(18, 18, 18);
+  padding: 20px;
+}
+header nav ul a {
+  text-decoration: none;
+}
+header nav ul a li {
+  list-style-type: none;
+  color: rgb(173, 173, 173);
+  font-size: 20px;
+  transition: 0.3s ease;
+}
+header nav ul a li:hover {
+  text-decoration: underline;
+}
+
+main section.write {
+  min-height: 100vh;
+  background-color: rgb(18, 18, 18);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 71px 30px 30px 30px;
+  gap: 20px;
+}
+main section.write h1 {
+  margin-top: 20px;
+  color: white;
+  font-size: clamp(35px, 4vw, 60px);
+}
+main section.write div.inputs-container {
+  width: 100%;
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+}
+main section.write div.inputs-container textarea {
+  width: 100%;
+  padding: 10px;
+  min-height: 400px;
+  background-color: rgb(30, 30, 30);
+  color: rgb(173, 173, 173);
+  border: none;
+  border-radius: 10px 10px 0 0;
+  font-size: 16px;
+}
+main section.write div.inputs-container button {
+  border: none;
+  border-top: 2px solid rgb(48, 48, 48);
+  width: 100%;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+  background-color: rgb(30, 30, 30);
+  color: rgb(173, 173, 173);
+  font-size: 16px;
+  transition: 0.2s ease;
+}
+main section.write div.inputs-container button:hover {
+  background-color: rgb(42, 42, 42);
+}
+main section.write div.inputs-container button:active {
+  background-color: rgb(58, 58, 58);
+}
+main section.read {
+  min-height: 100vh;
+  background-color: rgb(18, 18, 18);
+  padding: 71px 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main section.read h1 {
+  align-self: center;
+  justify-self: center;
+  margin-top: 20px;
+  color: white;
+  font-size: clamp(35px, 4vw, 60px);
+}
+main section.read input.search-box {
+  width: 100%;
+  padding: 10px;
+  font-size: clamp(20px, 1.5vw, 24px);
+  background-color: transparent;
+  border: 1px solid rgb(48, 48, 48);
+  border-radius: 10px;
+  color: rgb(173, 173, 173);
+}
+main section.read div.posts-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 40px;
+}
+main section.read div.posts-container div.post {
+  overflow: hidden;
+  background-color: rgb(30, 30, 30);
+  border-radius: 10px;
+}
+main section.read div.posts-container div.post div.post-header {
+  background-color: rgb(48, 48, 48);
+  text-align: center;
+  text-justify: center;
+  color: rgb(173, 173, 173);
+  padding: 10px;
+}
+main section.read div.posts-container div.post div.post-header p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: clamp(16px, 2vw, 20px);
+}
+main section.read div.posts-container div.post p.post-content {
+  color: rgb(173, 173, 173);
+  padding: 14px 22px 14px 22px;
+  font-size: clamp(20px, 1.5vw, 24px);
+}
+
+@media (min-width: 1200px) {
+  main section.read div.posts-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}/*# sourceMappingURL=index.css.map */
