@@ -67,6 +67,11 @@ main{
                 border: none;
                 border-radius: 10px 10px 0 0;
                 font-size: 16px;
+
+                font-family: "Source Code Pro", monospace;
+                font-optical-sizing: auto;
+                font-weight: 100;
+                font-style: normal;
             }
             button{
                 border: none;
@@ -140,6 +145,11 @@ main{
                     color: rgb(173, 173, 173);
                     padding: 14px 22px 14px 22px;
                     font-size: clamp(20px, 1.5vw, 24px);
+
+                    font-family: "Source Code Pro", monospace;
+                    font-optical-sizing: auto;
+                    font-weight: 100;
+                    font-style: normal;
                 }
             }
         }
